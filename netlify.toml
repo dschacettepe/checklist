@@ -1,2 +1,6 @@
 [context.production.environment]
   ALGOLIA_SKIP_INDEX = "false"
+
+[build]
+  command = "yarn run build"
+  publish = "public"
